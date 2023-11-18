@@ -1,4 +1,4 @@
-import Contact from "./Components/contact/contact";
+import Contact from "./Components/contact/Contact";
 import Cursor from "./Components/cursor/Cursor";
 import Hero from "./Components/hero/Hero";
 import Navbar from "./Components/navbar/Navbar";
