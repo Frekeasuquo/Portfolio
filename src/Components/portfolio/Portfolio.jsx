@@ -55,14 +55,13 @@ const Single = ({ item}) => {
                     <motion.div className='textContainer' style={{y}}>
                         <h2>{item.title}</h2>
                         <p>{item.desc}</p>
-                        <button>
-                            <a href={item.link} rel="noopener noreferrer">
-                                Visit Site
-                            </a>
-                            {/*<a href={item.link} target="_blank" rel="noopener noreferrer">
-                                Visit Site
-                            </a>*/}
-                        </button>
+                        <div>
+                            <button>
+                                <a href={item.link} target="_blank" rel="noopener noreferrer">
+                                    <p>Visit Site</p>
+                                </a>
+                            </button>
+                        </div>
                     </motion.div>
                 </div>
             </div>
