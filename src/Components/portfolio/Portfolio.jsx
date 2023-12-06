@@ -56,9 +56,12 @@ const Single = ({ item}) => {
                         <h2>{item.title}</h2>
                         <p>{item.desc}</p>
                         <button>
-                            <a href={item.link} target="_blank" rel="noopener noreferrer">
+                            <a href={item.link} rel="noopener noreferrer">
                                 Visit Site
                             </a>
+                            {/*<a href={item.link} target="_blank" rel="noopener noreferrer">
+                                Visit Site
+                            </a>*/}
                         </button>
                     </motion.div>
                 </div>
